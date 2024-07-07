@@ -163,3 +163,23 @@ main section{
     margin-top: 50px ;
     margin-bottom: 113px;
 }
+/* Footer design */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+input[type="text"], input[type="email"], footer textarea{
+    
+    width: 461px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
