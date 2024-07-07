@@ -39,7 +39,9 @@
     font-size: 18px;
     color: rgb(117, 117, 117);
 }
-
+.text-center{
+    text-align: center;
+}
 /* header */
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -108,13 +110,17 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* about styles */
 .about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 .about-items{
     display: flex;
@@ -122,4 +128,13 @@ main {
 }
 .item-description{
     font-weight: 700;
+}
+/* skills secrion styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 33px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
